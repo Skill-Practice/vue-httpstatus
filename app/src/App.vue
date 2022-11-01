@@ -1,12 +1,17 @@
 <template>
-  <layout />
+  <the-header />
+  <router-view />
+  <the-footer />
 </template>
 
 <script>
-import layout from '@/components/layout/main.vue';
+import TheHeader from './components/layouts/TheHeader.vue';
+import TheFooter from './components/layouts/TheFooter.vue';
+
 export default {
   components: {
-    layout,
+    TheHeader,
+    TheFooter,
   },
 };
 </script>
