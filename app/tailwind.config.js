@@ -7,9 +7,9 @@ module.exports = {
         softRed: 'hsl(0, 94%, 66%)',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Rubik', 'sans-serif'],
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  // plugins: [require('@tailwindcss/forms')],
 };

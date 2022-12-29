@@ -1,6 +1,8 @@
 <template>
   <the-header />
-  <router-view />
+  <main>
+    <router-view />
+  </main>
   <the-footer />
 </template>
 
@@ -15,3 +17,9 @@ export default {
   },
 };
 </script>
+
+<style>
+body {
+  background-color: #adb5bd;
+}
+</style>
